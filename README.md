@@ -1,15 +1,8 @@
-# react-template README
+# react-template
 
-Generate code template for react project
-
-## Features
-
-Generate functional component & pure component
+Generate code template for the Horizon react project.
 
 ## Instruction
 
-- In the file explorer, right click on the folder that you want the new component placed in
-- Select `Create Functional Component` or `Create Pure Component`
-- Input the component name
-- The according file templates will be generated for you
-- This git command will be generated too: `git add .` 
+- In the file explorer, right click on the folder that you want the new component placed in and select the desired template type
+- Execute the same commands from the VS Code command palette
