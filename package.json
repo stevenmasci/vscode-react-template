@@ -1,12 +1,12 @@
 {
-    "name": "react-template",
-    "displayName": "React Template",
-    "description": "generate code template for react project",
-    "version": "0.1.1",
-    "publisher": "dabai",
+    "name": "horizon-react-template",
+    "displayName": "Horizon React Template",
+    "description": "Generate code template for Horizon react project",
+    "version": "0.1.0",
+    "publisher": "stevenmasci",
     "repository": {
         "type" : "git",
-        "url" : "https://github.com/dickenslian/vscode-react-template.git"
+        "url" : "https://github.com/stevenmasci/vscode-react-template.git"
     },
     "icon": "images/icon.png",
     "engines": {
@@ -16,34 +16,27 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.createFunctionalComponent",
-        "onCommand:extension.createPureComponent",
-        "onCommand:extension.createTsPureComponent"
+        "onCommand:extension.createTsFc",
+        "onCommand:extension.createTsFcWithInterface"
     ],
     "main": "./extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.createFunctionalComponent",
-                "title": "Create Functional Component"
+                "command": "extension.createTsFc",
+                "title": "Create TS Functional Component"
             }, {
-                "command": "extension.createPureComponent",
-                "title": "Create Pure Component"
-            }, {
-                "command": "extension.createTsPureComponent",
-                "title": "Create TS Pure Component"
+                "command": "extension.createTsFcWithInterface",
+                "title": "Create TS Functional Component With Interface"
             }
         ],
         "menus": {
             "explorer/context": [
                 {
-                    "command": "extension.createFunctionalComponent",
+                    "command": "extension.createTsFc",
                     "group": "1_modification"
                 }, {
-                    "command": "extension.createPureComponent",
-                    "group": "1_modification"
-                }, {
-                    "command": "extension.createTsPureComponent",
+                    "command": "extension.createTsFcWithInterface",
                     "group": "1_modification"
                 }
             ]

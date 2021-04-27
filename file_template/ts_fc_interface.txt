@@ -1,0 +1,10 @@
+import React from 'react';
+import styles from './ClassName.module.scss';
+
+interface ClassNameProps {}
+
+const ClassName: React.FC<ClassNameProps> = ({}: ClassNameProps) => {
+    return <React.Fragment></React.Fragment>;
+};
+
+export default ClassName;
